@@ -289,5 +289,31 @@ footer {
 
 .video {
     height:400px;
-    width:500px;
+    width:600px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+blockquote {
+    margin: 0px 0px 1.75em 0px;
+    position: relative;
+    padding: 20px 55px;
+    background: #f9f9f9;
+}
+
+blockquote:after {
+    content: "\201C";
+    font-size: 76px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #0d689c;
+}
+
+.entry-content blockquote p {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+
