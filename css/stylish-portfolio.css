@@ -329,3 +329,9 @@ blockquote:after {
     font-size: 20px;
 }
 
+
+.leftmsg {
+    position:absolute;
+    left:0;
+    padding-left:4px;
+}
