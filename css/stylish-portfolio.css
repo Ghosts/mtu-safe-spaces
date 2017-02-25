@@ -303,7 +303,12 @@ footer {
 }
 
 .facebook {
+    display:block;
     max-width:100%;
+    text-align:center;
+    margin: 0 auto;
+    padding: 25px;
+    padding-left:55px;
 }
 
 blockquote {
