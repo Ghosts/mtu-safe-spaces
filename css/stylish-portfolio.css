@@ -10,6 +10,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -270,28 +271,40 @@ footer {
 }
 
 .buttonColor {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.buttonColor a {
     background-color: #FFCD00;
     color: black;
     margin-top:25px;
+    text-align:center;
+    white-space: pre-wrap;
 }
 
-.buttonColor:hover {
+.buttonColor a:hover {
     background: #021f2c;
     color: #fff;
 }
-.buttonColor:hover:after {
+.buttonColor a:hover:after {
     border-color: #021f2c;
 }
 
-.buttonColor:active:after {
+.buttonColor a:active:after {
     box-shadow: inset 0 0 0.5rem #000;
 }
 
 .video {
     height:400px;
+    max-width: 100%;
     width:600px;
     margin: 0 auto;
     text-align: center;
+}
+
+.facebook {
+    max-width:100%;
 }
 
 blockquote {
