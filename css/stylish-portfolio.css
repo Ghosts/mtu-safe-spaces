@@ -223,7 +223,7 @@ hr.small {
 /* Map */
 
 .map {
-    height: 800px;
+    height: 900px;
 }
 
 @media(max-width:768px) {
@@ -254,6 +254,8 @@ footer {
 
 .bgTitle {
     background-color: #FFCD00;
+    background: -webkit-linear-gradient(45deg, #ec5f67, #f99157, #fac863, #99c794, #5fb3b3, #6699cc, #c594c5);
+    background: linear-gradient(45deg, #ec5f67, #f99157, #fac863, #99c794, #5fb3b3, #6699cc, #c594c5);
     opacity:0.9;
 }
 
@@ -271,4 +273,16 @@ footer {
     background-color: #FFCD00;
     color: black;
     margin-top:25px;
+}
+
+.buttonColor:hover {
+    background: #021f2c;
+    color: #fff;
+}
+.buttonColor:hover:after {
+    border-color: #021f2c;
+}
+
+.buttonColor:active:after {
+    box-shadow: inset 0 0 0.5rem #000;
 }
