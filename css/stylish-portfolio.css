@@ -270,6 +270,7 @@ footer {
 }
 
 .buttonColor {
+    width: 150px;
     background-color: #FFCD00;
     color: black;
     margin-top:25px;
